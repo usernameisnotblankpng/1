@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Recommended Videos</title>
+    <title>Minimalist YouTube Player</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
     <div class="container">
@@ -17,9 +16,6 @@
             </label>
         </div>
 
-        <!-- Google Sign-In Button -->
-        <div id="google-signin" class="google-signin"></div>
-
         <!-- Search Bar -->
         <div class="search-container">
             <input type="text" id="search-input" placeholder="Search for YouTube videos...">
@@ -29,12 +25,6 @@
         <!-- Video Player -->
         <div class="video-container">
             <iframe id="video-player" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <!-- Recommended Videos -->
-        <div class="recommended-videos" id="recommended-videos">
-            <h2>Recommended Videos</h2>
-            <div class="video-list" id="video-list"></div>
         </div>
 
         <!-- Search Results -->
