@@ -1,5 +1,5 @@
 const apiKey = 'AIzaSyC_zKXBO3XyzuXc2AaEct6yQq7-GOg4Ygc'; // Your YouTube API Key
-const clientId = '72221346487-77rh3u5hilusjpneh44gcikm5cn1ehld.apps.googleusercontent.com'; // Replace with your Google OAuth Client ID
+const clientId = '72221346487-77rh3u5hilusjpneh44gcikm5cn1ehld.apps.googleusercontent.com'; // Your Google OAuth Client ID
 const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
 const searchResults = document.getElementById('search-results');
